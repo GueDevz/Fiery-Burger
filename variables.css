@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Manrope";
+    font-weight: 300;
+    src: url("./assets/Fonts/manrope-light-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Manrope";
+    font-weight: 400;
+    src: url("./assets/Fonts/manrope-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Manrope";
+    font-weight: 500;
+    src: url("./assets/Fonts/manrope-medium-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    src: url("./assets/Fonts/bebasneue-regular-webfont.woff2") format("woff2");
+}
+
+:root{
+    /* Color */
+--main-color: #EE3940;
+--secondary-color: #FCB73E;
+--alt-color: #B60B32;
+--main-background: #F9FAFA;
+--indicator-success:#00ba88;
+--indicator-warning:#ffcc00;
+--indicator-error:#ff3b30;
+--neutral-black: #000;
+--neutral-gray: #585e6c;
+--neutral-white: #fff;
+--title-color: #30404f;
+--text-color: #585e6c;
+--button-text: #F6F6F6;
+--alt-button-color: ;
+--gradient: radial-gradient(circle, rgba(182,11,50,1) 35%, rgba(238,57,64,1) 100%);
+
+    /* Typography */
+
+--main-font: "Manrope", sans-serif;
+--title-font:"Bebas Neue", sans-serif;
+--weight-300: 300;
+--weight-400: 400;
+--weight-500: 500;
+--extra-small: 1.2rem;
+--small-size: 1.4rem;
+--regular-size: 1.6rem;
+--large-size: 1.8rem;
+--extra-large-size: 3.5rem;
+
+    /* Visual Style */
+--extra-small-icon: 1.2rem;
+--small-icon: 1.5rem;
+--medium-icon: 2.4rem;
+--large-icon: 3rem;
+--border-radius: 2.5rem;
+--box-shadow: 2px 20px 20px 1px rgba(140,140,140,0.4);
+}
+
+/* Formateo de margenes */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Declaración del tamaño básico de la fuente para cada unidad "rem" */
+html{
+    font-size: 62.5%;
+}
