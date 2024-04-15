@@ -6,46 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="burger.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-    <link rel="stylesheet" href="/css/formularios.css">
+    <link rel="stylesheet" href="../css/formularios.css">
     <title>Fiery Burger</title>
 </head>
 
 <body>
 
-    <nav>
-        <img class="burger" src="/assets/images/Background-main-table-desktop.png" alt="burger">
+    <nav class="flota">
+        <img class="burger" src="../assets/images/floating-burger.png" alt="burger">
     </nav>
 
     <div class="padre">
 
-    <form class="formulario-registro">
-        <h2>Registro</h2>
-        <div class="campo">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-        </div>
-        <div class="campo">
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required>
-        </div>
-        <div class="campo">
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required>
-        </div>
-        <div class="campo">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div class="campo">
-            <label for="contrasena">Contraseña:</label>
-            <input type="password" id="contrasena" name="contrasena" required>
-        </div>
-        <div class="campo">
-            <label for="confirmar-contrasena">Confirmar contraseña:</label>
-            <input type="password" id="confirmar-contrasena" name="confirmar-contrasena" required>
-        </div>
-        <button type="submit">Registrarse</button>
-    </form>
+        <form class="formulario-registro">
+            <h2>Registro</h2>
+            <div class="nombre">
+                <div class="cam">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="cam">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+            </div>
+            <div class="campo">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="campo">
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+            </div>
+            <div class="campo">
+                <label for="confirmar-contrasena">Confirmar contraseña:</label>
+                <input type="password" id="confirmar-contrasena" name="confirmar-contrasena" required>
+            </div>
+
+            
+            <button type="submit">Registrarse</button>
+
+            
+            <div class="botones">
+
+                <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Ftakeout.google.com%2F%3Fhl%3Des&ec=GAlAwAE&hl=es&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1879525109%3A1713220540061566&theme=mn&ddm=0" class="boton-google">Iniciar sesión con Google</a>
+                <a href="https://www.facebook.com/?locale=es_LA" class="boton-facebook">Iniciar sesión con Facebook</a>
+            </div>
+            <div class="registro">
+                <p>¿Ya estas asociado? <a href="formulario1.html" class="enlace-registro">Iniciar Sesión</a></p>
+            </div>
+
+
+
+
+        </form>
 
     </div>
     <script src="main.js"></script>
